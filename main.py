@@ -17,11 +17,16 @@ write.shapesize(0.2, 0.2, 1)
 write.penup()
 def paint(x, y):
     t.pendown()
+    t.fillcolor('black')
+    t.begin_fill()
 def move(x, y):
     t.penup()
+def fill(x, y):
+    t.end_fill()
 
 write.onclick(paint)
 write.onrelease(move)
+write.onclick(fill, btn=3)
 def setCrds(event):
     global x, y
     x = event.x
