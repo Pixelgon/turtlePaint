@@ -1,4 +1,4 @@
-import turtle, pyautogui
+import turtle
 turtle.title("turtlePaint")
 wn = turtle.Screen()
 wn.setup(1200, 1200)
