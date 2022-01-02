@@ -49,6 +49,8 @@ def chcl():
     clhex = (clfull[1])
     t.pencolor(clhex)
     t.fillcolor(clhex)
+    write.fillcolor(clhex)
+    write.shape
 
 # Mys kresli (leve mysitko)
 def paint(x, y):
